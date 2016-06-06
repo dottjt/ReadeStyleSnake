@@ -1,0 +1,50 @@
+test.js 
+
+Okay, let's try again.
+Snake will sit in an array. 
+I can make it three arrays, or just one long one divided. 
+
+so if array is 3 x 4; 
+
+[0,0,0,0]
+[0,0,0,0]
+[0,0,0,0]
+
+or 
+
+[0,0,0,0,0,0,0,0,0,0,0,0]
+
+I think four arrays might be easier.
+
+
+Okay, I think I might know my pain point. Working on too many different types of logic at once. Don't involve UI logic. Just focus on game logic FIRST. 
+
+
+
+test3.js 
+
+function snakeMovementEvent(event) {
+	console.log(event.keyCode)
+	if (event.keyCode === 115) {
+		snakeMovementRight();
+	} else if (event.keyCode === 97) {
+		snakeMovementLeft();
+	} else if (event.keyCode === 119) {
+		snakeMovementUp();
+	} else if (event.keyCode === 114) {
+		snakeMovementDown();
+	} else {
+		return
+	}
+}
+
+
+How do I stop setInterval? 
+
+Maybe there's a way of simulating a keypress with setInterval? hmmmmm. Interesting. 
+
+
+test3_2.js
+
+My issue is moving up and down, setInterval doesn't change. Turns out the up/down variables were mixed up. 
+
