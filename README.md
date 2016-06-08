@@ -30,12 +30,18 @@ test3_2.js - Going to make it work with up and down. Complete solution. Works 03
 
 ## Snake eating things
 
-test4.js - Need to redesign grid and create 2 x 4 divs HOWEVER, I will make more. 10 x 10;
+test4.js - some random shit. 
 
-// NEED TO DRAMATICALLY RESIZE BOTH PROJECTS. Refactor into small parts. Until then, I need a break from programming. 
+Here's what I need to do:
++ create test html file for the 2 x 4 array. 
++ unit test specific function. 
+
+test5.js - Okay, UI works properly. 
 
 
-- Pellets appear randomly. 
+
+
+## Pellets appear randomly. 
 
 
 
@@ -45,7 +51,6 @@ When snake comes in contact with pellet
 
 
 
-## Random pelets appear. 
 
 
 

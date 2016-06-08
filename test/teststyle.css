@@ -1,0 +1,19 @@
+#arena {
+	position: relative;
+	width: 340px;
+	height: 300px;
+	border-sizing: border-box;
+	margin: 0 auto;
+	border: 1px solid;
+}
+
+.t { 
+	margin: 1px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid;
+	position: relative;
+	color: pink;
+	display: inline-block;
+}
+
